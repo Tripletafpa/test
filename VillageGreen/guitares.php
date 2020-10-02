@@ -45,27 +45,4 @@
 					echo"<td>".$row->pro_ref."</td>";
 					// Libellés
 					echo'<td class="table-warning align-middle text-center text-uppercase"><b><u><a class="text-danger" href="detail.php?pro_id='.$row->pro_id.'" title='.$row->pro_libelle.'>'.$row->pro_libelle.'</a></b></u></td>';
-					// Prix
-					echo"<td>".$row->pro_price."</td>";
-					// Stocks
-					echo"<td>".$row->pro_stock."</td>";
-					// Couleurs
-					echo"<td>".$row->pro_color."</td>";
-					// Date Ajout
-					echo"<td>".$row->pro_date_added."</td>";
-					// Date Modif
-					echo"<td>".$row->pro_date_modif."</td>";
-					// Bloqué
-					echo"<td>".$row->pro_locked."</td>";
-					echo"</tr>";
-				}
-				echo"</tbody>";
-			echo "</table>";
-		echo "</div>";
-    ?>
-
-<?php 
-	require('include/footer.php');
-?>
-
-<?php require('include/footer.php'); ?>
+	?>
