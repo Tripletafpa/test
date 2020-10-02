@@ -58,14 +58,4 @@
 					// Bloqué
 					echo"<td>".$row->pro_locked."</td>";
 					echo"</tr>";
-				}
-				echo"</tbody>";
-			echo "</table>";
-		echo "</div>";
-    ?>
-
-<?php 
-	require('include/footer.php');
-?>
-
-<?php require('include/footer.php'); ?>
+	
