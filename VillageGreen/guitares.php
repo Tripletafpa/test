@@ -5,7 +5,6 @@
 
 <div class="row">
     <?php
-		require "connexion.php"; // Inclusion de notre bibliothèque de fonctions
 		$db = connexionBase(); // Appel de la fonction de connexion
 		$requete = "SELECT * FROM products INNER JOIN categories WHERE cat_id = 1";
 
